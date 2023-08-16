@@ -19,7 +19,7 @@ const AboutSection = () => {
 
   const testing4 = [
     {
-      start: '890vh',
+      start: '540vh',
       duration: '50%',
       // easing: 'easeInOut',
       properties: [
@@ -39,7 +39,7 @@ const AboutSection = () => {
 
   const testing3 = [
     {
-      start: '620vh',
+      start: '400vh',
       duration: '50%',
       // easing: 'easeInOut',
       properties: [
@@ -59,8 +59,8 @@ const AboutSection = () => {
 
   const testing2 = [
     {
-      start: '370vh',
-      duration: '50%',
+      start: '260vh',
+      duration: '30%',
       // easing: 'easeInOut',
       properties: [
         {
@@ -80,7 +80,7 @@ const AboutSection = () => {
   const testing = [
     {
       start: '120vh',
-      duration: '50%',
+      duration: '30%',
       // easing: 'easeInOut',
       properties: [
         {
@@ -100,7 +100,7 @@ const AboutSection = () => {
     return(
         <section className="max-w-screen-xl mx-auto pt-10 about-section relative">
             <Plx className="MyAwesomeParallax about-title" parallaxData={parallaxTitle}>
-              <h1 className="text-5xl sm:text-7xl lg:text-6xl font-amatic-sc text-center z-10">Kenapa Memilih Kami</h1>
+              <h1 className="text-5xl sm:text-7xl lg:text-6xl font-amatic-sc text-center z-10">Kenapa Memilih Kami?</h1>
             </Plx>
 
             <Plx className="flex justify-center fixed left-0 right-0 top-52 opacity-0" parallaxData={testing}>
@@ -151,7 +151,7 @@ const AboutSection = () => {
               </div>
             </Plx>
 
-            <div className="pb-[10000px]"></div>
+            <div className="pb-[6000px]"></div>
         </section>
     )
 
