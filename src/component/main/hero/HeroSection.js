@@ -23,7 +23,7 @@ const HeroSection = () => {
           });
     }, []);
     return(
-        <section className="w-screen h-screen relative hero-section">
+        <section className="w-screen h-screen relative hero-section z-10">
             <div className="max-w-screen-xl flex flex-col items-center mx-auto lg:block pl-0 pt-12 sm:px-16 lg:px-0 sm:pt-20 lg:pl-48 lg:pt-56">
                 <div className="sm:w-2/3 lg:w-1/2 text-center px-10 sm:px-0 sm:text-start">
                     <h1 className="text-5xl sm:text-7xl lg:text-6xl font-amatic-sc">
