@@ -1,4 +1,4 @@
-import AboutSection from "./component/main/about/AboutSection";
+import WhyUsSection from "./component/main/why-us/WhyUsSection";
 import HeroSection from "./component/main/hero/HeroSection";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <main className="relative select-none overflow-x-hidden">
       <HeroSection />
 
-      <AboutSection />
+      <WhyUsSection />
     </main>
   );
 }
